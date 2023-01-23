@@ -96,3 +96,67 @@ header{
     transform: translate(-30%, -30%);
     text-align: center;
 }
+
+/*Style div with id #welcome */
+#welcome{
+    overflow: hidden;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+/*Style the title h1 tag. */
+#welcome .title{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+#welcome p{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+/*Adding basic styles for layout.*/
+#section-2{
+    overflow: hidden;
+    margin-top: 5em;
+    padding-top: 1em;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/*ALign columns in-line*/
+.row #column1,
+.row #column2,
+.row #column3{
+    float: left;
+    width: 320px;
+    padding: 80px 40px 80px 40px;
+}
+
+/*Style the column titles. */
+.column-title h2{
+    margin: 1em 0em;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+
+.button{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: white;
+    color: #4CAF50;
+}
