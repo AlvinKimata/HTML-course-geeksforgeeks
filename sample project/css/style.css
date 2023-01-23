@@ -72,3 +72,27 @@ header{
 	border-left: 1px solid #0074D9;
 	text-decoration: none;
 }
+
+/*Styling the main image menu*/
+#header-image-menu{
+    top: 10px;
+    position: relative;
+}
+
+/*Styling the image inside the image menu*/
+#header-image-menu img{
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+
+/*Positioning the image text*/
+#image-text{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-family: 'Roboto';
+    color: #000;
+    transform: translate(-30%, -30%);
+    text-align: center;
+}
