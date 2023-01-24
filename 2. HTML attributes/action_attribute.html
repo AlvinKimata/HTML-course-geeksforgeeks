@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!--<form action="URL"
+    
+    Used to specify the URL of the document where the data 
+    is sent after the submission of the form
+    >-->
+    <head>
+        <title>HTML action attribute</title>
+    </head>
+
+    <body>
+        <h1>GeeksForGeeks</h1>
+        <h2>HTML action attribute</h2>
+
+        <form action="test.php" method="post" id="users">
+            <label for="username">Username:</label>
+            <input type="text" name="name" id="username">
+            <br> <br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="pass" id="password">
+        </form>
+
+        <br>
+        <button onclick="myGeeks()">Submit</button> <br>
+
+        <b>After submitting the form, data will be sent to the "test.php" 
+            page on the server.</b>
+            
+    </body>
+</html>
+
